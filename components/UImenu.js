@@ -9,7 +9,7 @@ export default function UImenu() {
     frontCard.classList.remove("home-card-opacity");
   };
   return (
-    <div id="menu" className="menu-card">
+    <div id="menu" className="menu-card-opacity">
       <div className="menu-card-text">
         <a>Portfolio</a>
         <a>Contact</a>
