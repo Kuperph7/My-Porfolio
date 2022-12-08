@@ -2,6 +2,7 @@ import "../styles/globals.scss";
 import "../styles/components/UIhomeCard.scss";
 import { Roboto } from "@next/font/google";
 import "../styles/components/UImenu.scss";
+import "../styles/components/UIworkCard.scss";
 
 const roboto = Roboto({
   weight: ["100", "400", "700"],
