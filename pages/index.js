@@ -1,3 +1,4 @@
+import Cursor from "../components/Cursor";
 import UIhomeCard from "../components/UIhomeCard";
 import UImenu from "../components/UImenu";
 import UIworks from "../components/UIworks";
@@ -8,6 +9,7 @@ export default function Home() {
       <UIworks />
       <UImenu />
       <UIhomeCard />
+      <Cursor />
     </div>
   );
 }
