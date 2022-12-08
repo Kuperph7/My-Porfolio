@@ -1,0 +1,53 @@
+.menu-card {
+  width: 1368px;
+  height: 800px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  background-image: linear-gradient(to right, #994265, #684292);
+  font-family: "Roboto";
+  font-weight: 100;
+  color: white;
+}
+
+.menu-card-text {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  font-weight: 100;
+  font-size: 64px;
+  gap: 40px;
+  & a {
+    padding-left: 150px;
+  }
+
+  & a:hover {
+    transition: all 0.4s linear;
+    color: rgb(168, 168, 168);
+  }
+}
+
+.back {
+  font-weight: 100;
+  font-size: 64px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  &-button {
+    margin: 40px;
+    text-decoration: none;
+    color: white;
+  }
+  &-button:hover {
+    transition: all 0.4s linear;
+    color: rgb(168, 168, 168);
+  }
+}
+
+.menu-card-opacity {
+  opacity: 0;
+}
